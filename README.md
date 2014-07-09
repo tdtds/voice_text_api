@@ -23,14 +23,14 @@ require 'voice_text_api'
 
 vt = VoiceTextAPI.new('your api key')
 
-# say "good morning" by Show voice
-vt.tts('おはようございます', :show)
+# say "good morning" by Show's voice, returns WAV format audio
+wav = vt.tts('おはようございます', :show)
 
-# say "hello" happy by Haruka voice
-vt.tts('おはよう!', :haruka, emotion: :happiness)
+# say "hello" happy by Haruka's voice
+wav = vt.tts('おはよう!', :haruka, emotion: :happiness)
 
-# say "hello" more happy by Haruka voice
-vt.tts('おはよう!', :haruka, emotion: :happiness, emotion_level: 2)
+# say "hello" more happy by Haruka's voice
+wav = vt.tts('おはよう!', :haruka, emotion: :happiness, emotion_level: 2)
 ```
 
 ## Contributing
