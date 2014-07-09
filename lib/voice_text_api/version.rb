@@ -1,3 +1,3 @@
-module VoiceTextApi
+class VoiceTextAPI
   VERSION = "0.0.1"
 end

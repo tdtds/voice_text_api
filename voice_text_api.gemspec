@@ -5,7 +5,7 @@ require 'voice_text_api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "voice_text_api"
-  spec.version       = VoiceTextApi::VERSION
+  spec.version       = VoiceTextAPI::VERSION
   spec.authors       = ["TADA Tadashi"]
   spec.email         = ["t@tdtds.jp"]
   spec.summary       = %q{API of VoiceText}
