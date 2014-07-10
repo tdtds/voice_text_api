@@ -44,8 +44,8 @@ class VoiceTextAPI
 private
   def validate_parameters(speaker, emotion, emotion_level, pitch, speed, volume)
     raise ArgumentError.new("wrong speaker: #{speaker}" ) unless SPEAKERS.index(speaker.to_s)
-	 if speaker != :show && emotion != nil
-    	raise ArgumentError.new("wrong emotion: #{emotion}" ) unless EMOTIONS.index(emotion.to_s)
+    if speaker != :show && emotion != nil
+      raise ArgumentError.new("wrong emotion: #{emotion}" ) unless EMOTIONS.index(emotion.to_s)
     end
     raise ArgumentError.new("wrong emotion_level: #{emotion_level}" ) unless (1..2).include?(emotion_level)
     raise ArgumentError.new("wrong pitch: #{pitch}" ) unless (50..200).include?(pitch)
