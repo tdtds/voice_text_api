@@ -49,7 +49,7 @@ private
     end
     raise ArgumentError.new("wrong emotion_level: #{emotion_level}" ) unless (1..2).include?(emotion_level)
     raise ArgumentError.new("wrong pitch: #{pitch}" ) unless (50..200).include?(pitch)
-    raise ArgumentError.new("wrong speed: #{speed}" ) unless (50..200).include?(speed)
+    raise ArgumentError.new("wrong speed: #{speed}" ) unless (50..400).include?(speed)
     raise ArgumentError.new("wrong volume: #{volume}" ) unless (50..200).include?(volume)
   end
 
