@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["TADA Tadashi"]
   spec.email         = ["t@tdtds.jp"]
   spec.summary       = %q{API of VoiceText}
-  spec.description   = %q{API of VoiceText}
-  spec.homepage      = ""
+  spec.description   = %q{API of VoiceText, See https://cloud.voicetext.jp/webapi}
+  spec.homepage      = "https://github.com/tdtds/voice_text_api"
   spec.license       = "GPL"
 
   spec.files         = `git ls-files -z`.split("\x0")
