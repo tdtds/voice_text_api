@@ -7,7 +7,7 @@ class VoiceTextAPI
   class Unauthoeized < StandardError; end
 
   ENDPOINT = URI('https://api.voicetext.jp/v1/tts')
-  SPEAKERS = %w(show haruka hikari takeru)
+  SPEAKERS = %w(show haruka hikari takeru santa bear)
   EMOTIONS = %w(happiness anger sadness)
 
   # emotion levels
